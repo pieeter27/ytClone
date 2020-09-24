@@ -1,0 +1,83 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  background: rgb(105, 102, 102);
+  padding-top: 5rem;
+}
+#navBarAfterClick
+{
+  background: rgb(66, 65, 65);
+  height: 100vh;
+  width: 13%;
+}
+#aside-home-AfterClick, #aside-fire-AfterClick, #aside-check-AfterClick, #aside-firee-AfterClick
+{
+    box-sizing: border-box;
+    font-size: 12px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(141, 137, 137);
+}
+#aside-popup-AfterClick
+{
+    box-sizing: border-box;
+    font-size: 12px;
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(141, 137, 137);
+}
+#aside-home-AfterClick:hover, #aside-fire-AfterClick:hover, #aside-check-AfterClick:hover, #aside-popup-AfterClick:hover, #aside-firee-AfterClick:hover
+{
+  background: rgb(92, 92, 92);
+  cursor: pointer;
+}
+#aside-home-AfterClick:focus, #aside-fire-AfterClick:focus, #aside-check-AfterClick:focus, #aside-popup-AfterClick:focus, #aside-firee-AfterClick:focus
+{
+  color: whitesmoke;
+}
+#navBarAfterClick > aside > a
+{
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+#aside-left-AfterClick
+{
+  box-sizing: border-box;
+}
+/* BEETWEN ICONS AND TEXT  */
+.beetwenIconAndText
+{
+  padding-left: 2.1rem;
+}
+.beetwenIconAndTextDF
+{
+  padding-left: 1.7rem;
+}
+/* END OF BEETWEN ICONS AND TEXT  */
+#aside-check-AfterClick
+{
+  border-bottom: 1px solid white;
+}
+#aside-firee-AfterClick
+{
+  border-bottom: 1px solid white;
+}
+h3
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+  color: rgb(141, 137, 137);
+  border: none;
+}
